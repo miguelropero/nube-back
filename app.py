@@ -5,6 +5,10 @@ import service.bill_service as bill_service, service.user_service as user_servic
 
 app = Flask(__name__)
 
+@app.route('/')
+def get(id):
+    return "Servicio OK"
+
 """
 - Metodo que devuelve un bill dado su identificador
 - Params: id: identificador del bill
