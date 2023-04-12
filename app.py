@@ -6,7 +6,7 @@ import service.bill_service as bill_service, service.user_service as user_servic
 app = Flask(__name__)
 
 @app.route('/')
-def main(id):
+def main():
     return "Servicio OK"
 
 """
